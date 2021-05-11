@@ -1,4 +1,4 @@
-# Employee-MGMT
+# Employee-MGMT-Service
 
 ## Poject Overview:
 #### This Project is a Node JS based Project which demonstrates the following:
@@ -11,7 +11,7 @@
 
 
 ## Live Application URL
-### https://localhost:3000
+### https://localhost:3002
 This URL has the application deployed in
 
 ## Prerequisites
@@ -39,8 +39,9 @@ The Application Runs on localhost:3002
 
 ## Resources
 
-Express: Refer to http://expressjs.com/en/starter/installing.html to understand the concepts of Express
-
 NodeJS : Refer to https://nodejs.org/en/docs/guides/getting-started-guide/ to understand the concepts of NodeJS
 
-MongoDB: Refer to https://www.mongodb.com/cloud/atlas to understand how to use material UI.
+Express: Refer to http://expressjs.com/en/starter/installing.html to understand the concepts of Express
+
+
+MongoDB: Refer to https://www.mongodb.com/cloud/atlas to understand how to use MongoDB.
