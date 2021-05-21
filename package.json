@@ -1,0 +1,29 @@
+{
+  "name": "employee-mgmt-service",
+  "version": "1.0.0",
+  "description": "1. Service for @Employee-MGMT\r 2. Express is used as middleware\r 3. Mongo DB is used as database\r 4. Business logic for http calls",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon run app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jindia-singh/Employee-MGMT-Service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jindia-singh/Employee-MGMT-Service/issues"
+  },
+  "homepage": "https://github.com/jindia-singh/Employee-MGMT-Service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
