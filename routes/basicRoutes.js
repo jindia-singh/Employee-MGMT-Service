@@ -2,9 +2,9 @@ const express = require("express");
 
 const router= express.Router();
 const EmploeeController = require("../controller/employee")
-
+console.log("a")
 router.post("/addEmployee",EmploeeController.postEmployeeDetails);
-router.get("/getData",(req,res)=>{
-    res.status(200).json({ "employee": "createUser" })
-})
+router.post("/getData",EmploeeController.getEmployeeByIndex);
+router.delete("/deleteEmployee/:id",EmploeeController.deleteEmployeeByID);
+
 module.exports = router;
